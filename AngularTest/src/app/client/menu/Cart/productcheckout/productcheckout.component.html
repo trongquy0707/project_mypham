@@ -1,0 +1,27 @@
+<h1>Đơn hàng</h1>
+<div class="products">
+    <li class="product-item" *ngFor="let item of ItemCats">
+        <img [src]="item.anhSanPham" alt="">
+        <p>{{item.tenSanPham}}</p> <br>
+        <p> | {{item.soLuong}} | </p>
+        <p class="price">{{item.giaSanPham | currency:'VND'}}</p>
+    </li>
+</div>
+<!-- <div style="display: flex; justify-content: space-between; align-items: center;margin: 10px 5px;    border-bottom: 1px solid #ebe9e9;">
+    <input type="text" placeholder="Nhập mã giảm giá">
+    <button class="btn-sale">Áp dụng</button>
+</div> -->
+<div class="total-amount">
+    <li>
+        <p>Tạm tính</p>
+        <p>{{tongTienTamTinh | currency:'VND'}}</p>
+    </li>
+    <li>
+        <p>Phí cận chuyển</p>
+        <p>40.000₫</p>
+    </li>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center;margin: 10px 5px;">
+    <h2>Tổng cộng</h2>
+    <h2>{{tonghoadon |currency:'VND'}}</h2>
+</div>

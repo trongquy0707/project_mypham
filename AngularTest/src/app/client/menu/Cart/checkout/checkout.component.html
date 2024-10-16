@@ -1,0 +1,106 @@
+<div class="containers">
+    <div class="left">
+        <img src="/images/logo.jpg" alt="">
+        <div style="display: flex">
+            <div class="information">
+                <h3>Thông tin nhận hàng</h3>
+                <div class="form-groups">
+                    <input type="email" [(ngModel)]="orders.email" placeholder="Email">
+                    <label for="" class="form-label">Email</label>
+                </div>
+                <div class="form-groups">
+                    <input type="text" [(ngModel)]="orders.tenKhachHang" placeholder="Họ và tên">
+                    <label for="" class="form-label">Họ và tên</label>
+                </div>
+                <div class="form-groups">
+                    <input type="text"[(ngModel)]="orders.soDienThoai" placeholder="Số điện thoại">
+                    <label for="" class="form-label">Số điện thoại</label>
+                </div>
+                <div class="form-groups">
+                    <div>
+                        <select [(ngModel)]="selectCity" (change)="onChangeCity()" class="form-select form-select-sm mb-3">
+                          <option value="" selected>Chọn tỉnh thành</option>
+                          <option *ngFor="let city of cities" [value]="city.Name">{{ city.Name }}</option>
+                        </select>
+                      
+                        <select [(ngModel)]="selectDistricts" (change)="onChangeDistrict()" class="form-select form-select-sm mb-3">
+                          <option value="" selected>Chọn quận huyện</option>
+                          <option *ngFor="let district of districts" [value]="district.Name">{{ district.Name }}</option>
+                        </select>
+                      
+                        <select [(ngModel)]="selectedWard" class="form-select form-select-sm">
+                          <option value="" selected>Chọn phường xã</option>
+                          <option *ngFor="let ward of wards" [value]="ward.Name">{{ ward.Name }}</option>
+                        </select>
+                        
+                      </div>
+                </div>
+                <textarea name="" id="" cols="44" rows="5" placeholder="Khách hàng nhập địa chỉ bằng tiếng anh tại đây (tuỳ chọn)"></textarea>
+            </div>
+            <div style="margin-left: 10px;">
+                <h3>Vận chuyển</h3>
+                <div class="transport">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Giao hàng tận nơi</label>
+                    </div>
+                    <label for="">40.000đ</label>
+                </div>
+                <h3>Thanh toán</h3>
+                <div class="pay">
+                    <div>
+                        <input type="radio" name=""  [(ngModel)]="orders.thanh_Toan" [value]="1" id="cod">
+                        <label for="">Thu hộ (COD)</label>
+                    </div>
+                    <i class="fa-regular fa-money-bill-1"></i>
+                </div>
+                <div class="pay">
+                    <div>
+                        <input type="radio" name=""  [(ngModel)]="orders.thanh_Toan" [value]="0" id="bank">
+                        <label for="">Chuyển khoản</label>
+                    </div>
+                    <i class="fa-regular fa-money-bill-1"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <!-- <h1>Đơn hàng</h1>
+        <div class="products">
+            <li class="product-item">
+                <img src="/images/prd1.jpg" alt="">
+                <p>Kem dưỡng ẩm Paula's Choice Skin Recovery RepLenishing Moisturize</p>
+                <p class="price">850.000₫</p>
+            </li>
+            <li class="product-item">
+                <img src="/images/prd1.jpg" alt="">
+                <p>Kem dưỡng ẩm Paula's Choice Skin Recovery RepLenishing Moisturize</p>
+                <p class="price">850.000₫</p>
+            </li>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center;margin: 10px 5px;    border-bottom: 1px solid #ebe9e9;">
+            <input type="text" placeholder="Nhập mã giảm giá">
+            <button class="btn-sale">Áp dụng</button>
+        </div>
+        <div class="total-amount">
+            <li>
+                <p>Tạm tính</p>
+                <p>1.185.000₫</p>
+            </li>
+            <li>
+                <p>Phí cận chuyển</p>
+                <p>40.000₫</p>
+            </li>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center;margin: 10px 5px;">
+            <h2>Tổng cộng</h2>
+            <h2>1.225.000₫</h2>
+        </div> -->
+        <app-productcheckout></app-productcheckout>
+        <div style="display: flex; justify-content: space-between; align-items: center;margin: 10px 5px;">
+            <a href="/html/cart.html" style="color: rgb(88, 143, 247);">Quay về giỏ hàng</a>
+            <button class="btn-order" (click)="checkout()">ĐẶT HÀNG</button>
+        </div>
+    </div>
+
+</div>

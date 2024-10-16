@@ -1,0 +1,40 @@
+<!-- <p>quyzz</p>
+<button (click)="getcart()">tesst</button> -->
+<main>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Ảnh Sản Phẩm</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Đơn Giá</th>
+                <th>Số Lượng</th>
+                <th>Tổng tiền</th>
+                <th>Xóa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of ItemCats ; let i = index" >
+                <td>{{i+1}}</td>
+                <td>
+                    <img [src]="item.anhSanPham" alt="" style="width: 80px; height: 80px; text-align: center;">
+                </td>
+                <td>{{item.tenSanPham}} </td>
+                <td>{{item.giaSanPham|currency:'VND'}}</td>
+                <td>
+                    <div class="button" style="text-align: center;">
+                        <button class="prev" (click)="giamsoluong(item)" >-</button>
+                        <label id="quantity_@item.IdSanPham" style="text-align:center; padding-top: 5px"> {{item.soLuong}} </label>
+                        <button class="next" (click)="tangsoluong(item)" >+</button>
+                    </div>
+                </td>
+                <td>{{item.tongGia| currency: "VND" :true }}</td>
+                <td><button (click)="xoaCartItem(item.idSanPham)">xóa</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <span class="total_price"> Số tiền: {{tongTien|currency:'VND'}} </span>
+    <div>
+        <button class="checkout-button" > <a href="/client/checkout" style=" text-decoration: none;">Thanh toán</a></button>
+    </div>
+</main>

@@ -1,0 +1,15 @@
+<main>
+    <div class="container">
+        <h1>ĐĂNG KÝ</h1>
+        <p>Đã có tài khoản, đăng nhập <a href="client/loggin" style="color: #e83e8c;">tại đây</a></p>
+        <form action="">
+          
+            <input type="text" [(ngModel)]="register.hoTen" placeholder="Họ Tên">
+            <input type="email" [(ngModel)]="register.email"    placeholder="Email"><br>    
+            <input type="text" [(ngModel)]="register.sDT"   placeholder="Số điện thoại">
+            <input type="password" [(ngModel)]="register.matKhau"   placeholder="Mật khẩu"><br>
+            <input type="password"  [(ngModel)]="register.reurnMatKhau"   placeholder=" Return mật khẩu"><br>
+            <button (click)="dangky()">Đăng Ký</button>
+        </form>
+    </div>
+</main>

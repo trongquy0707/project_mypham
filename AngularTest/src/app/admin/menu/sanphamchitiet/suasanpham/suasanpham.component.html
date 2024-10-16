@@ -1,0 +1,61 @@
+<div class="form-horizontal">
+    <h4>SAN_PHAM_CHI_TIET</h4>
+    <hr />
+    <div class="form-group">
+        <div class="col-md-10" style="font-size: 20px;">
+           Tên danh mục
+           <input type="text" id="tenSanPham" [(ngModel)]="SanPhamChiTiet.tenSanPham" name="tenSanPham" class="form-control" >
+        </div>
+    </div>
+        <div class="form-group">
+            <div class="col-md-10" style="font-size: 20px;">
+               Giá Gốc
+               <input type="text" id="tenDangMuc" [(ngModel)]="SanPhamChiTiet.giaGoc" name="tenDangMuc" class="form-control" >
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10" style="font-size: 20px;">
+               Phần trăm Sale
+               <input type="text" id="tenDangMuc" [(ngModel)]="SanPhamChiTiet.phanTramSale" name="tenDangMuc" class="form-control" >
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10" style="font-size: 20px;">
+               Mô Tả Chi Tiết
+               <input type="text" id="tenDangMuc" [(ngModel)]="SanPhamChiTiet.moTaChiTiet" name="tenDangMuc" class="form-control" >
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-10" style="font-size: 20px;">
+            <label for="">Danh Mục Sản Phẩm</label>
+            <select class="form-control" [(ngModel)]="SanPhamChiTiet.maDanhMuc" name="category" id="category">
+                <option value="">---Chọn danh mục---</option>
+                <option *ngFor="let item of DanhMuc" [value]="item.maDanhMuc">{{item.tenDangMuc}}</option>
+              </select>
+            </div>
+            </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="form-group">
+                    <label class="col-3" for="">IsHome</label>
+                    <div class="custom-control custom-checkbox" >
+                        <input type="checkbox" id="tenDangMuc" [(ngModel)]="SanPhamChiTiet.isHome" class="form-group" >
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="form-group">
+                    <label class="col-3" for="">IsSale</label>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" id="tenDangMuc" [(ngModel)]="SanPhamChiTiet.isSale" name="tenDangMuc" class="form-group" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" (click)="suasanpham()" class="btn btn-default" />
+        </div>
+    </div>
+</div>

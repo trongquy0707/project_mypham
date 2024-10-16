@@ -1,0 +1,21 @@
+<div class="categories-featured">
+    <div class="categories-featured-title">
+        <a href="#"><h2>DANH MỤC HOT</h2></a>
+        <img src="./assets/client/images/icon_title.jpg" width="10%" alt="">
+    </div>
+    <div class="categories-featured-wrapper" >
+        <li><a href="#">
+            <img src="./assets/client/images/list_hot1.jpg" alt="">
+            <p>Tất cả sản phẩm</p>
+        </a></li>
+        <div *ngFor="let item of danhmuc">
+            <li><a href="client/sanphamdanhmuc/{{item.maDanhMuc}}">
+                <img [src]="item.anhDanhMuc" alt="">
+                <p>{{item.tenDangMuc}}</p>
+            </a></li>
+        </div>
+        
+      
+    </div>
+</div>
+

@@ -1,0 +1,61 @@
+
+<table class="table">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card mb-4">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+          <h6 class="m-0 font-weight-bold text-primary" style="font-size: 25px">
+            Thông tin đơn hàng
+          </h6>
+          <button class="btn btn-success">
+            <a style="text-decoration: none; color: aliceblue" href="/admin/xacnhandonhang">Đơn hàng chờ xác nhận</a>
+          </button>
+        </div>
+        <div class="table-responsive p-3">
+          <table class="table align-items-center table-flush" id="dataTable">
+            <thead class="thead-light">
+              <tr>
+                <th>STT</th>
+                <th>Mã HD</th>
+                <th>Tên Khách Hàng</th>
+                <th>SDT</th>
+                <th>Địa chỉ</th>
+                <th>Số tiền</th>
+                <th>Ngày Mua</th>
+                <th>PTTT</th>
+                <th>Trạng Thái</th>
+                <th> Khác </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let items of hoadon | paginate:{itemsPerPage: 5, currentPage: p }; let i = index">
+                <td>{{ i+1}}</td>
+                <td>{{items.code}}</td>
+                <td>{{ items.tenKhachHang}}</td>
+                <td>{{ items.soDienThoai}}</td>
+                <td>{{ items.xa_Phuong}} {{items.quan_Huyen}} {{items.thanhPho}}</td>
+                <td>{{items.tongTien|currency:'VND'}}</td>
+                <td>{{items.ngayMua |date:'M/d/yy'}}</td>
+                <td>{{items.thanh_Toan === 0 ? 'Chuyển khoản' : items.thanh_Toan === 1 ? 'Tiền mặt' : items.thanh_Toan}}</td>
+                <td>{{items.status === 1?'Chờ xác nhận':items.status===2?'Đã xác nhận':items.status==3?'Đang chuẩn bị đơn hàng':items.status}}</td>
+             
+                <td>
+                  <a href="/admin/detailOrder/{{items.maHD}}" > <button type="button" class="btn btn-primary">chi tiết</button></a>
+                 
+                  <button type="button" class="btn btn-danger" (click)="openDialog(items.maHD)">Danger</button>
+                </td>
+              </tr>
+              <tr *ngIf="hoadon.length === 0" style="color: red">
+                <td colspan="9" style="text-align: center">
+                  Chưa có bản ghi nào !!
+                </td>
+              </tr>
+            </tbody>
+          
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</table>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>

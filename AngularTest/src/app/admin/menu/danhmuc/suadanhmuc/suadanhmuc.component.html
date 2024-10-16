@@ -1,0 +1,40 @@
+<form #form="ngForm" (ngSubmit)="suadanhmuc()">
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="col-md-10" style="font-size: 20px;">
+               Tên danh mục
+               <input type="text" id="tenDangMuc" [(ngModel)]="list.tenDangMuc" name="tenDangMuc" class="form-control" required />
+            </div>
+        </div>
+        <div class="form-group">
+            Hình Ảnh
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <!-- <input type="button" class="btn btn-primary" id="iTaiAnh" value="Tải ảnh" (click)="taiAnh()" /> -->
+                    </div>
+                    <div class="col-md-12">
+                        <table class="table table-hover" id="tbAnhSanPham">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th class="text-center">Ảnh</th>
+                                    <th class="text-center">Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbHtml">
+                            </tbody>
+                        </table>
+                        <input type="hidden" id="tCurrentId" value="0" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-default">Save</button>
+            </div>
+        </div>
+    </div>
+</form>
+

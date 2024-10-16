@@ -1,0 +1,15 @@
+<main>
+    <div class="container">
+        <h1>ĐĂNG NHẬP</h1>
+        <form (ngSubmit)="dangnhap()">
+            <input type="email" [(ngModel)]="loggin.email" name="email" placeholder="Email" required><br>
+            <input type="password" [(ngModel)]="loggin.matKhau" name="matKhau" placeholder="Mật khẩu" required><br>
+            <button type="submit">Đăng Nhập</button>
+            <div class="forget">
+                <a href="#">Quên mật khẩu</a>
+                <a href="/html/register.html">Đăng ký tại đây</a>
+            </div>
+        </form>
+    </div>
+</main>
+

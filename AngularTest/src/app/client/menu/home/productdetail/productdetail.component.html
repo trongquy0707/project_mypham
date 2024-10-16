@@ -1,0 +1,193 @@
+
+<main>
+    <div class="container">
+        <div class="products_detail" *ngFor="let item of sanphamchitiet">
+            <div class="products">
+                <div class="product_image" >
+                    <img [src]="hinhAnhChinh" width="350" id="product_detail-img">
+                    <p  >
+                        <img *ngFor="let image of hinhanh" [src]="image.hinhAnh" width="80" (click)="clickImage(image.hinhAnh)">
+                    <p>
+                </div>
+                <div class="product_text">
+                    <h2 class="product_text_title">{{item.tenSanPham}}</h2>
+                    <div style="display: flex;margin: 10px 0; border-bottom: 1px solid #ededed;">   
+                    </div>
+                    <h2 style="text-align: left;">Giá: <span style="color: #d8346b;">{{item.giaGoc|currency:'VND'}}</span></h2>
+                    <div class="gift">
+                        <div class="gift_title">
+                            <i class="fa-solid fa-gift"></i>
+                            <h3>Quà tặng khuyến mãi</h3>
+                        </div>
+                       
+                    </div>
+                    <div>
+                        <p>Số lượng</p>
+                        <div class="buy">
+                            <div class="button">
+                                <button class="prev" (click)="giamsoluong()">-</button>
+                                <label id="quantity" style="  display: flex;   justify-content: center; ">{{quantity}}</label>
+                                <button class="next" (click)="tangsoluong()">+</button>
+                            </div>
+                            <div class="buttons">
+                                <a href="client/cart" class="cart" (click)="addToCart(item.maSP, quantity)">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 10px; background-color: #28a745; color: white; padding: 5px 0; border-radius: 5px; text-align: center;">Đơn hàng được miễn phí vận chuyển</p>
+                </div>
+            </div>
+            <div class="products_detail_text">
+               
+                <div class="products_detail_text_describe">
+                    <h3>Mô tả sản phẩm</h3>
+                    <p>{{item.moTaChiTiet}}</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu-1">
+                <h3 class="menu_title">CHÍNH SÁCH CỦA CHÚNG TÔI</h3>
+                <ul>
+                    <li>
+                        <img src="assets/client/images/menu1.jpg" alt="">
+                        <p>Miễn phí vận chuyển tại TP.Hà Nội</p>
+                    </li>
+                    <li>
+                        <img src="assets/client/images/menu2.jpg" alt="">
+                        <p>Bảo hành chính hãng toàn quốc</p>
+                    </li>
+                    <li>
+                        <img src="assets/client/images/menu3.jpg" alt="">
+                        <p>Cam kết chính hãng 100%</p>
+                    </li>
+                    <li>
+                        <img src="assets/client/images/menu4.jpg" alt="">
+                        <p>1 đổi 1 nếu mỹ phẩm lỗi</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-2">
+                <h3 class="menu_title"><a href="">CÓ THỂ BẠN THÍCH</a></h3>
+                <ul>
+                    <li>
+                        <img src="assets/client/images/prd1.jpg" width="60">
+                        <div>
+                            <a href="">Kem Dưỡng La Roche Posay B5 Cicaplast Dạng Cream</a>
+                            <p>280.000₫ <span> 320.000₫</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/client/images/prd2.jpg" width="60">
+                        <div>
+                            <a href="">Kem Dưỡng Ẩm Paula's Choice Skin Recovery RepLenishing</a>
+                            <p>860.000₫</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/client/images/prd3.jpg" width="60">
+                        <div>
+                            <a href="">Tinh Chất Sáng Da Serum Vichy Liftactiv Specialist</a>
+                            <p>1.275.000₫ <span> 1.310.000₫</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/client/images/prd4.jpg" width="60">
+                        <div>
+                            <a href="">Tẩy Da Chết Vật Lý Bioderma Sebium Gel Gommant</a>
+                            <p>390.000₫</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="related_products">
+        <div class="related_products-title">
+            <h2>SẢN PHẨM LIÊN QUAN</h2>
+            <img src="assets/client/images/icon_title.jpg" alt="">
+        </div>
+        <div class="daily-hot-deals-content-gird">
+            <ul class="daily-hot-deals-content-row">
+                <li class="daily-hot-deals-content-item" data-name="a-5">
+                    <img src="assets/client/images/prd8.jpg" alt="">
+                    <div class="background"></div>
+                    <div class="content">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#">Mua ngay</a>
+                    </div>
+                    <div class="product_detail">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#">Nước cân bằng ngừa mụn La Roche-Posay Effaclar Astringent Toner</a>
+                        <div class="price">
+                            <p class="cost">305.000đ</p>
+                            <p class="sale">300.000đ</p>
+                            <p class="discount">-20%</p>
+                        </div>
+                        <h5>Có 2 lựa chọn quà tặng khi mua sp</h5>
+                    </div>
+                </li>
+                <li class="daily-hot-deals-content-item" data-name="a-6">
+                    <img src="assets/client/images/prd9.jpg" alt="">
+                    <div class="background"></div>
+                    <div class="content">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#">Mua ngay</a>
+                    </div>
+                    <div class="product_detail">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#">Nước cân bằng ngừa mụn La Roche-Posay Effaclar Astringent Toner</a>
+                        <div class="price">
+                            <p class="cost">305.000đ</p>
+                            <p class="sale">300.000đ</p>
+                            <p class="discount">-10%</p>
+                        </div>
+                        <h5>Có 2 lựa chọn quà tặng khi mua sp</h5>
+                    </div>
+                </li>
+                <li class="daily-hot-deals-content-item" data-name="a-7">
+                    <img src="assets/client/images/prd10.jpg" alt="">
+                    <div class="background"></div>
+                    <div class="content">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#">Mua ngay</a>
+                    </div>
+                    <div class="product_detail">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#">Nước cân bằng ngừa mụn La Roche-Posay Effaclar Astringent Toner</a>
+                        <div class="price">
+                            <p class="cost">305.000đ</p>
+                            <p class="sale">300.000đ</p>
+                            <p class="discount">-10%</p>
+                        </div>
+                        <h5>Có 2 lựa chọn quà tặng khi mua sp</h5>
+                    </div>
+                </li>
+                <li class="daily-hot-deals-content-item" data-name="a-8" >
+                    <img src="assets/client/images/prd11.jpg" alt="">
+                    <div class="background"></div>
+                    <div class="content">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#">Mua ngay</a>
+                    </div>
+                    <div class="product_detail">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#">Nước cân bằng ngừa mụn La Roche-Posay Effaclar Astringent Toner</a>
+                        <div class="price">
+                            <p class="cost">305.000đ</p>
+                            <p class="sale">300.000đ</p>
+                            <p class="discount">-10%</p>
+                        </div>
+                        <h5>Có 2 lựa chọn quà tặng khi mua sp</h5>
+                    </div>
+                </li>
+            </ul>
+           
+  
+            
+            <script src="/js/card.js"></script>
+        </div>
+    </div>
+     -->
+</main>

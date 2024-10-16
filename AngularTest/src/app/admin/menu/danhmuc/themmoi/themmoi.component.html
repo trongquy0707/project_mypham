@@ -1,0 +1,32 @@
+<div class="form-horizontal">
+
+
+    <div class="form-group">
+       
+        <div class="col-md-10" style="font-size: 20px;">
+           Tên danh mục
+           <input type="text" id="tenDangMuc" [(ngModel)]="list.tenDangMuc" name="tenDangMuc" class="form-control" >
+        </div>
+
+    </div>
+    <div class="form-group">
+       
+        <div class="col-md-10" style="font-size: 20px;">
+           Ảnh danh mục
+           <input type="file" id="tenDangMuc" (change)="onFileChange($event)" name="tenDangMuc" class="form-control" >
+        </div>
+
+    </div>
+    <div *ngIf="imagePreview.length > 0">
+        <h3>Hình ảnh đã chọn:</h3>
+        <div *ngFor="let preview of imagePreview; let i = index">
+          <img [src]="preview" alt="Preview" style="max-width: 200px; margin: 10px;" />
+        </div>
+      </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create"  (click)="themmoi()" class="btn btn-default" />
+        </div>
+    </div>
+</div>

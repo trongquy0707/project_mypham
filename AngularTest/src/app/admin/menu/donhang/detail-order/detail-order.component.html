@@ -1,0 +1,86 @@
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Chi tiết đơn hàng</h3>
+    </div>
+    <div class="card-body" >
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Mã đơn hàng</label>
+                    <p class="form-control">{{hoadon.code}}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Họ tên khách</label>
+                    <p class="form-control">{{hoadon.tenKhachHang}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Tổng tiền</label>
+                    <p class="form-control">{{hoadon.tongTien| currency:'VND'}}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Số điện thoại</label>
+                    <p class="form-control">{{hoadon.soDienThoai}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Ngày tạo</label>
+                    <p class="form-control">{{hoadon.ngayMua|date:'dd/mm/yy'}}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Email</label>
+                    <p class="form-control">{{hoadon.email}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Phương thức thanh toán</label>
+                    <p class="form-control">{{hoadon.thanh_Toan ===0 ? "Chuyển khoản": hoadon.thanh_Toan === 1 ? "Tiền mặt" :hoadon.thanh_Toan }}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Trạng thái</label>
+                        <select class="form-control" id="ddTrangThai" (change)="changetrangthai($event)" [disabled]="isTrangThaiDisabled">
+                            <option>
+                                Chọn trạng thái
+                            </option>
+                            <option value="2">
+                                Đã xác nhận
+                            </option>
+                            <option value="3">
+                                Đang giao hàng
+                            </option>
+                        </select>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Danh sách sản phẩm</h2>
+            </div>
+            <div class="col-12">
+             <app-list-order></app-list-order>
+            </div>
+        </div>
+    </div>
+    <!-- /.card-body -->
+    <div class="card-footer">
+
+    </div>
+    <!-- /.card-footer-->
+</div>

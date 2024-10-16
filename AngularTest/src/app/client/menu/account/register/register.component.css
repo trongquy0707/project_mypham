@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+main .container{
+    width: 350px;
+    justify-content: center;
+}
+main .container h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #d8346b;
+}
+main .container p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+form{
+    text-align: center;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dfddd6;
+    background-color: transparent;
+    transition: 0.3s all ease;
+    margin-bottom: 10px;
+}
+form input:focus{
+    border-color: #eee;
+}
+
+form button{
+    width: 100%;
+    background-color: #d8346b;
+    padding: 10px 0;
+    border-color: #eee;
+    transition: 0.3s all ease-in-out;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #eee;
+    margin: 10px 0;
+}
+form button:hover{
+    cursor: pointer;
+}

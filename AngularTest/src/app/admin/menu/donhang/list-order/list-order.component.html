@@ -1,0 +1,25 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        
+            <tr   *ngFor="let items of hoadonchitiet; let i = index">
+                <td>{{i+1}}</td>
+                <td>{{items.tenSanPham}}</td>
+                <td>{{items.giaBan}}</td>
+                <td>{{items.soLuongMua}}</td>
+                <td>{{items.thanhtien}}</td>
+            </tr>
+    
+         
+    </tbody>
+</table>
+

@@ -1,0 +1,65 @@
+
+table {
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-collapse: initial;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.checkout-button {
+    background-color: hotpink;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 150px;
+    /*  margin-b:150px;*/
+}
+
+.total_price {
+    /* margin-bottom:20px;*/
+    font-size: 20px;
+    float: right;
+   /* top:10px;
+    left: 20px;*/
+    color: red;
+    margin-right:200px
+    
+}
+
+.checkout-button:hover {
+    background-color: #d8346b;
+}
+
+.buy .button {
+    display: grid;
+    grid-template-columns: 40px 70px 40px;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    margin: 5px 20px 5px 0;
+}
+
+.button .prev, .next {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+    .button .prev:hover, .next:hover {
+        background: #d8346b;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }

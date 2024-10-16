@@ -1,0 +1,53 @@
+<div class="daily-hot-deals">
+    <div class="daily-hot-deals-title">
+        <h2 style="color: #fbd348; font-weight: bold; width: 17%; font-size: 25px;">Flash Sale</h2>
+        <img src="./assets/client/images/flash.jpg" width="30px">
+        <marquee>
+            <p style="color: whitesmoke; width: 50%; line-height: 2; font-weight: 500;">Giảm ngay 20% tổng giá trị đơn hàng cùng với 120k được áp dụng cho các đơn hàng trên 500k. </p>
+        </marquee>
+        <div style="display: flex; text-align: center; width: 20%;">
+            <div class="item">
+                <p id="days">{{days}}</p>
+            </div>
+            <span>:</span>
+            <div class="item">
+                <p id="hours">{{hours}}</p>
+            </div>
+            <span>:</span>
+            <div class="item">
+                <p id="minutes">{{minutes}}</p>
+            </div>
+            <span>:</span>
+            <div class="item">
+                <p id="seconds">{{seconds}}</p>
+            </div>
+        </div>
+        <script src="./assets/client/js/sale.js"></script>
+    </div>
+    <div class="daily-hot-deals-content">
+        <div class="daily-hot-deals-content-gird">
+            <ul class="daily-hot-deals-content-row">
+                <li class="daily-hot-deals-content-item" *ngFor="let item of sanphamchitiet">
+                    <img src="{{item.hinhAnhChinh}}" alt="">
+                    <div class="background"></div>
+                    <div class="content">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#" class="list" data-name="p-5">Mua ngay</a>
+                    </div>
+                    <div class="product_detail">
+                        <a href="client/productdetail/{{item.maSP}}"><i class="fa-regular fa-heart"></i></a>
+                        <a href="client/productdetail/{{item.maSP}}">{{item.tenSanPham}}</a>
+                        <div class="price">
+                            <p class="cost">{{item.giaSale | currency: 'VND':true}}</p>
+                            <p class="sale">{{item.giaGoc | currency: 'VND':true}}</p>
+                            <p class="discount">-{{item.phanTramSale}}%</p>
+                        </div>
+                        <h5>Có 2 lựa chọn quà tặng khi mua sp</h5>
+                    </div>
+                </li>
+              
+            </ul>
+        
+        </div>
+    </div>
+</div>

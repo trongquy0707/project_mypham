@@ -1,0 +1,202 @@
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\appsettings.json
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.exe
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.deps.json
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.runtimeconfig.json
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.runtimeconfig.dev.json
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\ref\Web_my_pham.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.pdb
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.AssemblyReference.cache
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.AssemblyInfoInputs.cache
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.AssemblyInfo.cs
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.CoreCompileInputs.cache
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\staticwebassets\Web_my_pham.StaticWebAssets.Manifest.cache
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\staticwebassets\Web_my_pham.StaticWebAssets.xml
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\scopedcss\bundle\Web_my_pham.styles.css
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.RazorTargetAssemblyInfo.cache
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.CopyComplete
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\ref\Web_my_pham.dll
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.pdb
+C:\Users\Trong Quy\OneDrive\Máy tính\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.genruntimeconfig.cache
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.dll
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\ref\Web_my_pham.dll
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.pdb
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\appsettings.Development.json
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\appsettings.json
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.exe
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.deps.json
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.runtimeconfig.json
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.runtimeconfig.dev.json
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\ref\Web_my_pham.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.pdb
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Humanizer.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.Mvc.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.Razor.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.Helpers.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.AssemblyReference.cache
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.AssemblyInfoInputs.cache
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.AssemblyInfo.cs
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.CoreCompileInputs.cache
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\staticwebassets\Web_my_pham.StaticWebAssets.Manifest.cache
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\staticwebassets\Web_my_pham.StaticWebAssets.xml
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\scopedcss\bundle\Web_my_pham.styles.css
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.RazorTargetAssemblyInfo.cache
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.CopyComplete
+D:\New folder\Web_API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.genruntimeconfig.cache
+D:\New folder\Web_API\Web_my_pham\bin\Debug\net5.0\libman.json
+D:\API\Web_my_pham\bin\Debug\net5.0\appsettings.Development.json
+D:\API\Web_my_pham\bin\Debug\net5.0\appsettings.json
+D:\API\Web_my_pham\bin\Debug\net5.0\libman.json
+D:\API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.exe
+D:\API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.deps.json
+D:\API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.runtimeconfig.json
+D:\API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.runtimeconfig.dev.json
+D:\API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\ref\Web_my_pham.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Web_my_pham.pdb
+D:\API\Web_my_pham\bin\Debug\net5.0\Humanizer.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Web.Mvc.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Web.Razor.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Web.Helpers.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Web.WebPages.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.AssemblyReference.cache
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.GeneratedMSBuildEditorConfig.editorconfig
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.AssemblyInfoInputs.cache
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.AssemblyInfo.cs
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.CoreCompileInputs.cache
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.MvcApplicationPartsAssemblyInfo.cs
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.MvcApplicationPartsAssemblyInfo.cache
+D:\API\Web_my_pham\obj\Debug\net5.0\staticwebassets\Web_my_pham.StaticWebAssets.Manifest.cache
+D:\API\Web_my_pham\obj\Debug\net5.0\staticwebassets\Web_my_pham.StaticWebAssets.xml
+D:\API\Web_my_pham\obj\Debug\net5.0\scopedcss\bundle\Web_my_pham.styles.css
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.RazorTargetAssemblyInfo.cache
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.csproj.CopyComplete
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.dll
+D:\API\Web_my_pham\obj\Debug\net5.0\ref\Web_my_pham.dll
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.pdb
+D:\API\Web_my_pham\obj\Debug\net5.0\Web_my_pham.genruntimeconfig.cache
+D:\API\Web_my_pham\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\API\Web_my_pham\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
